@@ -89,6 +89,7 @@
     <Compile Include="ServiceFibonacci.asmx.cs">
       <DependentUpon>ServiceFibonacci.asmx</DependentUpon>
     </Compile>
+    <Compile Include="Utilities\ConvertToJson.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
